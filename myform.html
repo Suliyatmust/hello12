@@ -1,0 +1,59 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my form</title>
+	
+</head>
+<body bgcolor="Red">
+
+<table width="100%" border="3" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"><a href="index.html">HOME</a></div></td>
+    <td><a href="ABOUT.html">ABOUT US</a></td>
+    <td><a href="CONTACT.html">CONTACT US </a></td>
+  </tr>
+</table>
+
+
+<form action="israel" method="post">
+	FULL NAME:<input type="text" name="USERNAME" size="15" maxlength="20" value="enter your username" />
+	<br> EMAIL:<input type="text" name="EMAIL" size="15" maxlength="20" value="enter your email" />
+	<br>
+	male:<input type="radio" name="sex" value="MALE">
+	female:<input type="radio" name="sex" value="FEMALE">
+	<br>
+	upload your files
+	passport <input type="file" name="passport">
+	signature <input type="file" name="signature">
+	<br>
+	
+	<p>select your choice of product</p>
+	cloth:<input type="checkbox" name="product" value="cloth">
+	shoes:<input type="checkbox" name="product" value="shoes">
+	bag:<input type="checkbox" name="product" value="bag">
+	scaf:<input type="checkbox" name="product" value="scaf">
+    <br>SELECT YOUR STATE OF ORIGIN:
+    <select name="state of origin">
+    	<option value="OYO">OYO STATE</option>
+    	<option value="OSUN">OSUN STATE</option>
+    	<option value="ONDO">ONDO STATE</option>
+    	<option value="OGUN">OGUN STATE</option>
+    	<option value="EKITI">EKITI STATE</option>
+    	<option value="LAGOS">LAGOS STATE</option>
+    	<option value="KOGI">KOGI STATE</option>
+    	<option value="KWARA">KWARA STATE</option>
+    </select>
+    <div>
+    <br>let people get to know u better
+    <br>
+    <textarea name="about me" rows="5" cols="50">
+    	
+    </textarea>
+   </div>
+<br>
+   	<input type="submit" value="submit">
+
+</form>
+</body>
+</html>
